@@ -1,3 +1,53 @@
-h1 {
+.main-image {
+  max-width: 80%;
+}
+.day1-image,
+.day2-image,
+.day3-image,
+.day4-image,
+.day5-image {
+  max-width: 65%;
+}
+#todays-temp {
+  font-size: 100px;
+}
+
+#celsius-link {
+  font-weight: 600;
+  text-decoration: none;
+  color: black;
+  cursor: text;
+}
+.units {
+  position: relative;
+  top: -55px;
+}
+.form-inline {
+  float: right;
+}
+.form-search {
+  display: inline-block;
+  max-width: 80%;
+}
+.form-button {
+  display: inline-block;
+}
+h1,
+.todays-temp {
+  font-size: 3vw;
+}
+h2 {
+  font-size: 2vw;
+}
+h4 {
+  font-size: 1.3vw;
+}
+p.forecast-weather {
+  font-size: 1vw;
+}
+li {
+  list-style: none;
+}
+.git-link {
   text-align: center;
 }
